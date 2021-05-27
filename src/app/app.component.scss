@@ -4,10 +4,18 @@
 
     height: 100%;
 
-    background-color: rgb(203, 211, 211) ;
+    background-image: url("https://images.unsplash.com/photo-1621010967351-ccec7c4ccb50?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixlib=rb-1.2.1&q=80&w=1920") ;
+
+   // background-image: url("https://images.unsplash.com/photo-1620694882401-c1aded43fa02?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixlib=rb-1.2.1&q=80&w=1920") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+  
 }
 .top-section {
-    background-color: rgb(157, 240, 212) ;
+    //background-color: rgb(157, 240, 212) ;
     text-align: center;
     padding: 100px 0 ;
 
@@ -21,15 +29,20 @@ h1 {
 }
 h2 {
     font-size: 28px;
-    color: whitesmoke;
+    color: white;
     text-shadow: 0px 1px 4px black;
 }
 
 }
 .content-section {
-    background-color: lightblue ;
+   // background-color: lightblue ;
     flex-grow: 1;
 }
 .bottom-section {
-    background-color: coral ;
+  //  background-color: coral ;
+    display: flex;
+
+    app-tabs {
+        margin: auto ;
+    }
 }
